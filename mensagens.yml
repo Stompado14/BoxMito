@@ -1,0 +1,53 @@
+#################################################
+#                     BoxMito                   #
+#               Plugin by: Stompado             #
+#            Plugin exclusivo da BoxStore       #
+#               © Copyright BoxStore            #
+#################################################
+
+#Prefixo das mensagens
+Prefixo: '&b&lMITO &8»'
+
+#Configurações Gerais
+AnunciarEntrada: true
+AnunciarSaida: true
+AnunciarNovoMito: true
+Raio: true
+
+#Comandos que serão executados ao se tornar mito
+Comandos:
+  Ativar: true
+  Comandos:
+    - 'money give @mito 100'
+
+#Mensagens Gerais
+SemPermissao: '&cVoce não possui permissão para esse comando.'
+JogadorNaoEncontrado: '@prefix &cEsse jogador não existe ou não está em nosso servidor.'
+
+#Como ficará a tag do Mito no Chat
+Tag: '&b[Mito]'
+
+#Mostra as informações do mito ao usar /mito
+Menu:
+  Nome: '&e&lMito do PvP'
+  Itens:
+    Nome: '&e&lMito do PvP'
+    Lore:
+      - ''
+      - '&eO &bMito &edo PvP &ee &b{mito}'
+      - ''
+  Slot: 11
+
+Mensagens:
+  MensagemDeEntrada:
+    - ''
+    - '@prefix &fO Mito &b{mito} &fentrou no servidor'
+    - ''
+  MensagemDeSaida:
+    - ''
+    - '@prefix &fO Mito &b{mito} &fsaiu do servidor'
+    - ''
+  AnunciarNovoMito:
+    - ''
+    - '@prefix &fO jogador &b{mito} &fteve sua tag roubada por &b{novomito}'
+    - ''

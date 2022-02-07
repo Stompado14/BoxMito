@@ -1,0 +1,8 @@
+name: BoxMito
+version: 1.0.0
+author: Stompado
+softdepend: [nChat]
+main: me.mito.BoxMito
+commands:
+  mito:
+    aliases: [myth]
